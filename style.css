@@ -1,0 +1,58 @@
+:root{
+    border-style: double;
+}
+body {
+    background-color: #8a2be255;
+    border-style: double;
+}
+
+h1 {
+    font-size: xxx-large;
+    font-weight: bolder;
+    border-style: double;
+    background-color: red;
+}
+
+h2, h3 {
+    background-color: azure;
+}
+
+h2, h3, h4, ol, li, p {
+    border-style: double;
+}
+
+img {
+    max-width: 100%;
+    width: 750px;
+    object-fit: contain;
+    border-style: double;
+}
+
+header {
+    background-color: #ff000055;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 4px;
+    border-style: double;
+}
+
+a {
+    
+    font-size: medium;
+    border-style: double;
+}
+
+a:hover {
+    animation-name: ohGodHelp;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    background-color: #0000ff30;
+}
+
+@keyframes ohGodHelp
+{
+    0% {font-size: large;}
+    15% {font-size: large;}
+    100% {font-size: 2000pt;}
+}
